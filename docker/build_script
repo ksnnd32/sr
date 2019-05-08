@@ -1,0 +1,13 @@
+# run the following command on the sr directory.
+docker build -t sr -f docker/Dockerfile .
+
+# attach tag
+docker tag image_id ksnnd/sr:latest
+docker tag image_id ksnnd/sr:0.0.0.2
+
+# docker login
+docker login
+
+# push to dockerhub
+docker push ksnnd/sr:latest
+docker push ksnnd/sr:0.0.0.2
