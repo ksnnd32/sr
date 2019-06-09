@@ -1,4 +1,4 @@
-tensorflow==1.0.0
+tensorflow==1.12.1
 sugartensor==1.0.0.2
 pandas==0.19.2
 librosa==0.5.0
